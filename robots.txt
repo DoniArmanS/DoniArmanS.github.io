@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doniarmans.github.io/sitemap.xml

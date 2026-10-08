@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doni Arman S, developer and Information Systems student at Universitas Riau</title>
+  <meta name="description" content="Portfolio of Doni Arman S: web apps with Next.js and Laravel, backends in Go, and a Nextflow pangenome pipeline on BRIN's HPC for my thesis at Universitas Riau.">
+  <meta name="author" content="Doni Arman S">
+  <link rel="canonical" href="https://doniarmans.github.io/">
+  <meta name="theme-color" content="#2e7df6">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://doniarmans.github.io/">
+  <meta property="og:title" content="Doni Arman S">
+  <meta property="og:description" content="Web apps, backends and genome pipelines. Information Systems student at Universitas Riau.">
+  <meta property="og:image" content="https://doniarmans.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Doni Arman S on a blue chessboard">
+  <meta property="profile:first_name" content="Doni">
+  <meta property="profile:last_name" content="Arman S">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&text=%E2%99%94%E2%99%9A&display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Doni Arman S",
+    "alternateName": ["Doni Arman.S", "Doni Arman", "DoniArmanS"],
+    "url": "https://doniarmans.github.io/",
+    "image": "https://doniarmans.github.io/assets/doni.jpg",
+    "jobTitle": "Information Systems student",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Universitas Riau", "url": "https://unri.ac.id" },
+    "knowsAbout": ["Web development", "Next.js", "Laravel", "Go", "PostgreSQL", "Nextflow", "Bioinformatics", "Pangenome graphs"],
+    "sameAs": [
+      "https://github.com/DoniArmanS",
+      "https://www.instagram.com/doniarmans1",
+      "https://web.facebook.com/doni.20123"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top">Doni Arman S</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-text">
+        <h1 id="hero-name">Doni<br>Arman S</h1>
+        <p class="lead">I build web apps, backends and genome pipelines. Information Systems student at Universitas Riau, finishing a thesis that runs on BRIN's HPC cluster.</p>
+        <p class="actions">
+          <a class="button" href="#work">See my work</a>
+          <a class="text-link" href="https://github.com/DoniArmanS">GitHub profile</a>
+        </p>
+      </div>
+
+      <div class="hero-board">
+        <div class="match">
+          <a class="plate plate-opponent" href="#contact">
+            <span><span class="piece" aria-hidden="true">&#9818;&#xFE0E;</span> You</span>
+            <span class="plate-note">Your move</span>
+          </a>
+          <figure class="board">
+            <img src="assets/doni.jpg" width="640" height="640" alt="Portrait of Doni Arman S in a white shirt and black tie">
+            <div class="board-grid" aria-hidden="true"></div>
+            <div class="board-coords" aria-hidden="true"></div>
+          </figure>
+          <div class="plate">
+            <span class="plate-me"><img src="assets/doni.jpg" width="32" height="32" alt=""> Doni Arman S</span>
+            <span class="plate-note"><span class="piece" aria-hidden="true">&#9812;&#xFE0E;</span> White</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-title">
+      <div class="section-head">
+        <h2 id="work-title">Selected work</h2>
+        <p class="legend">Annotated like a chess game: <b class="annot">!!</b> proudest work, <b class="annot">!</b> solid and shipped, <b class="annot">!?</b> experiments.</p>
+      </div>
+
+      <article class="move">
+        <p class="annot" title="Proudest work"><span aria-hidden="true">!!</span><span class="sr">Proudest work</span></p>
+        <div class="move-body">
+          <h3>nf-pangenome-elaeis</h3>
+          <p class="meta">Undergraduate thesis, 2026</p>
+          <p>A Nextflow pipeline that builds a pangenome graph from three oil palm (<i>Elaeis guineensis</i>) genome assemblies with Minigraph-Cactus. It runs on BRIN's Mahameru HPC cluster under SLURM, and I benchmarked CPU and memory use to recommend resource settings from real runs instead of guessing high.</p>
+          <p class="stack">Built with Nextflow DSL2, Minigraph-Cactus, Python, Bash and SLURM</p>
+          <p class="links"><a href="https://github.com/DoniArmanS/nf-pangenome-elaeis">Code</a></p>
+        </div>
+      </article>
+
+      <article class="move has-media">
+        <p class="annot" title="Solid and shipped"><span aria-hidden="true">!</span><span class="sr">Solid and shipped</span></p>
+        <div class="move-body">
+          <h3>Yuhengs</h3>
+          <p class="meta">Personal project, 2026</p>
+          <p>An anime streaming fan site styled like a late-night TV channel: what just aired, what's on next, and a weekly schedule in your own time zone. Anime data comes from the AniList GraphQL API.</p>
+          <p class="stack">Built with Next.js 16, React 19, TypeScript and Tailwind CSS 4</p>
+          <p class="links"><a href="https://yuhengs.vercel.app">Live site</a><a href="https://github.com/DoniArmanS/Yuhengs">Code</a></p>
+        </div>
+        <a class="shot" href="https://yuhengs.vercel.app" tabindex="-1" aria-hidden="true">
+          <img src="assets/yuhengs.jpg" width="1200" height="750" alt="" loading="lazy">
+        </a>
+      </article>
+
+      <article class="move">
+        <p class="annot" title="Solid and shipped"><span aria-hidden="true">!</span><span class="sr">Solid and shipped</span></p>
+        <div class="move-body">
+          <h3>SIM-PPKS</h3>
+          <p class="meta">Internship at Dinas Sosial dan Pemberdayaan Masyarakat Kota Batam, 2026</p>
+          <p>A data platform that replaced scattered spreadsheets at Batam's social services office. Staff log daily activities with photo evidence, export Excel reports by day, week or month, and share any activity to WhatsApp as an auto-generated image card.</p>
+          <p class="stack">Built with Laravel 10, Tailwind CSS, MySQL and html2canvas</p>
+          <p class="links"><a href="https://github.com/DoniArmanS/Project_Magang_DINSOS">Code</a></p>
+        </div>
+      </article>
+
+      <article class="move">
+        <p class="annot" title="Solid and shipped"><span aria-hidden="true">!</span><span class="sr">Solid and shipped</span></p>
+        <div class="move-body">
+          <h3>Zanafa Pulse</h3>
+          <p class="meta">Team of four, 2026, in progress</p>
+          <p>Stock management for a bookstore with three branches in Pekanbaru, replacing a desktop app that only worked on the shop's local network. Staff will check every branch's stock from one screen instead of phoning around.</p>
+          <p class="stack">Built with Go (Gin), PostgreSQL, Docker and Nginx</p>
+          <p class="links"><a href="https://github.com/DoniArmanS/zanafa-pulse">Code</a></p>
+        </div>
+      </article>
+
+      <article class="move">
+        <p class="annot" title="Experiment"><span aria-hidden="true">!?</span><span class="sr">Experiment</span></p>
+        <div class="move-body">
+          <h3>PawnAnalyse</h3>
+          <p class="meta">Personal project, 2026</p>
+          <p>A chess game analysis platform that turns raw games into insights you can actually train on.</p>
+          <p class="stack">Built with Laravel, PHP and Tailwind CSS</p>
+          <p class="links"><a href="https://github.com/DoniArmanS/PawnAnalyse">Code</a></p>
+        </div>
+      </article>
+
+      <article class="move">
+        <p class="annot" title="Experiment"><span aria-hidden="true">!?</span><span class="sr">Experiment</span></p>
+        <div class="move-body">
+          <h3>MyAnimeList Search</h3>
+          <p class="meta">Final exam group project, 2026</p>
+          <p>A small search engine over 50 MyAnimeList titles, built with my group for our final exam.</p>
+          <p class="stack">Built with Python, Jupyter and JavaScript</p>
+          <p class="links"><a href="https://github.com/DoniArmanS/MyAnimeList_Searching">Code</a></p>
+        </div>
+      </article>
+
+      <p class="more"><a href="https://github.com/DoniArmanS?tab=repositories">All repositories on GitHub</a></p>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="about-text">
+        <h2 id="about-title">About</h2>
+        <p>I'm Doni, an Information Systems student at Universitas Riau. I like owning a project end to end: the screens people use, the backend that keeps the data straight, and lately the pipelines that process genomes.</p>
+        <p>My thesis automates oil palm pangenome construction on BRIN's Mahameru HPC cluster. Before that I built a data platform during my internship at Batam's social services office, and right now I'm writing the backend for a three-branch bookstore with my team.</p>
+        <p>Off the keyboard it's anime and chess, which is why both keep showing up in my projects.</p>
+
+        <h3>What I work with</h3>
+        <dl class="tools">
+          <div><dt>Web</dt><dd>Next.js, React, TypeScript, Tailwind CSS</dd></div>
+          <div><dt>Backend</dt><dd>Go (Gin), Laravel, PHP, PostgreSQL, MySQL</dd></div>
+          <div><dt>Data and bioinformatics</dt><dd>Python, Nextflow, Minigraph-Cactus, SLURM</dd></div>
+          <div><dt>Tools</dt><dd>Docker, Nginx, Git, Linux, Vercel</dd></div>
+        </dl>
+      </div>
+
+      <figure class="pgn">
+        <pre><code>[Event "Information Systems"]
+[Site "Universitas Riau, Pekanbaru"]
+[Date "2023.??.??"]
+[White "Doni Arman S"]
+[Black "You"]
+[Result "*"]</code></pre>
+        <figcaption>In chess notation, <code>*</code> means the game is still in progress. Thesis defense planned for December 2026.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <section id="contact" class="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Your move.</h2>
+    <p>Got a role, a project or a chess game in mind? Here's where to find me.</p>
+    <ul class="contact-links">
+      <li><a href="https://github.com/DoniArmanS">GitHub <span>DoniArmanS</span></a></li>
+      <li><a href="https://www.instagram.com/doniarmans1">Instagram <span>doniarmans1</span></a></li>
+      <li><a href="https://web.facebook.com/doni.20123">Facebook <span>doni.20123</span></a></li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Doni Arman S</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
